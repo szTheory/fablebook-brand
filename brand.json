@@ -1,0 +1,1039 @@
+{
+  "about": "Fablebook brand data, version 2.0. Every rule in the brand book as structured data; American English. This edition defines no logo animation and no sound.",
+  "name": "Fablebook",
+  "version": "2.0",
+  "date": "November 10, 2026",
+  "revisions": [
+    {
+      "version": "2.0",
+      "date": "November 11, 2026",
+      "changes": "Tenth pass, after the owner’s glance at the whole book: on the markers page, “What each means” now has one clear hierarchy, with the group headings Coverage and Preview set larger than the marker names under them and each meaning in the quiet color; the rest was read and left as it was."
+    },
+    {
+      "version": "1.9",
+      "date": "November 11, 2026",
+      "changes": "Ninth pass, after the owner’s read of the whole book: “UI catalog” is the one name for Fablebook and the part you open (the descriptor is “A UI catalog for Phoenix LiveView”); “case” replaces “situation”, so a scenario is one screen in one case; Edited is a round outlined pill listed apart from the two coverage marks, Gap and Waived; the voice is “Plain”, with a plain-to-lively dial; moving between scenarios is instant and a component’s own animation plays as the app defines it; the type, hierarchy, coverage, README and docs, Hex and tab pages are realigned on one grid; the sample app cards have even spacing above their buttons; the terminal coverage output is an aligned table with “gap” in brick and “waived” in slate; the themes page drops its slogan line."
+    },
+    {
+      "version": "1.8",
+      "date": "November 11, 2026",
+      "changes": "Eighth pass, after the owner’s read of the idea, messaging, presence and marker pages: the pitch is shorter; the first pillar shows each screen in situations such as a first visit, nothing there yet and form validation errors, with clearly named scenarios; a scenario is one screen in one situation, and the idea page says so with an example; the three markers are described briefly; the clear-space page says what the mark can be mistaken for; the favicon page is laid out as three cuts, the tile and the browser tab."
+    },
+    {
+      "version": "1.7",
+      "date": "November 11, 2026",
+      "changes": "Seventh pass, after the owner’s read of the values: the values now state what Fablebook does instead of instructing the reader (“Previews your real UI”, “Names each scenario by the situation it shows”, “Says which screens are covered”), with “Gap” and “Waived” in quotes; the Yours value and the third messaging pillar say your user flows, test scenarios, styling, and domain language live in your app’s repository."
+    },
+    {
+      "version": "1.6",
+      "date": "November 11, 2026",
+      "changes": "Sixth pass, after the owner’s read of the positioning and values pages: Fablebook is “a UI workbench for Phoenix LiveView” everywhere, and the positioning is shorter (mock up all of your user flows and preview them with realistic data); the developer’s job is to mock up the app’s user flows and see how every screen will look, with setup as adding `fablebook` to mix.exs and mounting one dev route in Phoenix; the stakeholder job is to go through every user flow screen by screen, and the need is one catalog with share links for mockups and a scenario coverage map for blind spots; the assistants row promises LLM context for every user persona, JTBD, UI component and screen, with component styles as structured text; the Exact value drops the address, the Calm value says the UI catalog has neutral styling to keep the focus on the screens it shows, the Honest value says which screens are covered, and the claim that Fablebook never ships in a production build is gone from the values, the messaging pillars and the presence note; “ink on neutral” is “neutral” in plain statements."
+    },
+    {
+      "version": "1.5",
+      "date": "November 10, 2026",
+      "changes": "Fifth pass, after the owner’s read of the audience table: the developer’s job is to mock up every screen and see how they will look in user flows, then keep refining; the setup says add Fablebook to Mix and mount one dev route in Phoenix; the stakeholder job is to go through all the user flows screen by screen and give feedback on whether they work for users; the stakeholder need is a catalog to preview all user flows in every scenario, links to share mockups for feedback and a coverage map; the coding assistants row promises full context (user personas, screens, user flows, UI conventions) and structured text for jobs to be done, domain language and UI component styles; “situations users meet” and “the dev routes block” are gone from every page; a Job to be done term joins the key terms."
+    },
+    {
+      "version": "1.4",
+      "date": "November 10, 2026",
+      "changes": "Fourth pass, after the owner’s read of the positioning and values pages: the part of Fablebook you open is the “UI catalog” (the descriptor stays “a workbench for Phoenix LiveView UIs”); “canon” is “domain language”; “reviewer” and “library authors” are gone from the audience (designers, product people and other stakeholders; coding assistants and other LLM tools); the developer’s job reads “see how each one looks … until the whole UI is perfect”; the values say what they mean in plain words (a mockup that does not match production, “Card declined at send time” as the example name, which user flows and screens are covered, a Gap or a Waived mark with the reason); the same wording is swept through every page."
+    },
+    {
+      "version": "1.3",
+      "date": "November 10, 2026",
+      "changes": "Third plain-language pass, after the owner’s read of the positioning and values pages: the developer’s job is now to mock up every screen of the app and keep refining until the whole UI is right (not “a screen”), and the phrases about the “host app’s own layout”, “renders through” and “real layout and CSS” are replaced by the plain point that you are previewing your real UI; the same wording is swept through the pillars, values, presence note, brand-color rule, glossary and captions."
+    },
+    {
+      "version": "1.2",
+      "date": "November 10, 2026",
+      "changes": "Second plain-language pass, after the owner’s read of the summary page: the descriptor is now “A workbench for Phoenix LiveView UIs” (in full, “for user interfaces written in Phoenix LiveView”); the positioning, pitch, job, audience and boilerplate say what the product is for (mock up and iterate on a UI, see every screen in a user’s journey from the happy path to the edge cases) instead of “the happy one”, “the failed save” and “inside your own layout and styles”; the voice line is “Calm and plain” and says “user”, not “person”; the same wording is swept through every page and caption."
+    },
+    {
+      "version": "1.1",
+      "date": "November 10, 2026",
+      "changes": "Plain-language pass: the tagline, positioning, pitch, audience, voice and glossary now speak in what a person using the app goes through (screens, paths, the happy path and what goes wrong) instead of “states”; the same wording is swept through every page, caption, the README, Hex page, social card and the mock command output."
+    },
+    {
+      "version": "1.0",
+      "date": "November 10, 2026",
+      "changes": "First edition of this brand book: the logo (a lowercase f whose stem ends in a gilt bookmark ribbon), a light and a dark theme, an ink-on-neutral workbench, the docs and README looks, and the voice."
+    }
+  ],
+  "idea": {
+    "line": "A bookmark keeps your place in a book. A scenario keeps one screen in one case, ready to come back to.",
+    "explanation": [
+      "Most UI work is judged on the happy path. The empty first visit, the failed payment and the client name that runs across three lines are where screens let users down, and finding them means clicking through the whole app. Fablebook shows each as a named scenario to open, compare and link to, so a team sees the whole user flow.",
+      "The mark is the first letter of the name, a lowercase f, whose stem becomes a bookmark ribbon with a swallowtail end, hanging below the baseline. The ribbon is the same shape the UI catalog uses to mark the current scenario. In the logo it is the one gilt piece: the place you’ve kept.",
+      "The f is the wordmark’s own f, from Schibsted Grotesk, cut once under the crossbar. Nothing in the mark is a shield, a lock or an eye. Fablebook helps people see what is there; it does not guard, watch or certify."
+    ]
+  },
+  "tagline": "The whole journey, not just the happy path.",
+  "positioning": "A UI catalog for Phoenix LiveView. Mock up all of your user flows and preview them with realistic data so you can quickly iterate to perfection. For developers, designers, product people and LLMs.",
+  "job": "Help me mock up my app’s user flows, see how every screen will look, and keep refining until the whole UI is perfect.",
+  "audience": [
+    {
+      "who": "Phoenix and LiveView developers",
+      "job": "Mock up my app’s user flows and see how every screen will look. Then keep refining until the whole UI is perfect, from first idea to finished.",
+      "need": "A setup that takes minutes: add `fablebook` to your mix.exs, mount one dev route in Phoenix, and start previewing your UI. Nothing else to build or maintain."
+    },
+    {
+      "who": "Designers and other stakeholders",
+      "job": "Go through every user flow screen by screen.",
+      "need": "One catalog to preview all of your user flows, with links to share your mockups for feedback, and a scenario coverage map to uncover blind spots in your UI."
+    },
+    {
+      "who": "Coding assistants and other LLM tools",
+      "job": "LLM context for every user persona, JTBD, UI component, and screen of your app.",
+      "need": "All of the JTBD (Jobs To Be Done), domain language, and component styles are available as structured text so that an LLM has perfect context."
+    }
+  ],
+  "values": [
+    {
+      "value": "Real",
+      "meaning": "Previews your real UI, not a lookalike. A mockup that doesn’t match production gets you feedback on a screen your users will never see."
+    },
+    {
+      "value": "Exact",
+      "meaning": "Names each scenario by the case it shows, like “Card declined at send time”. Never “variant 3”."
+    },
+    {
+      "value": "Calm",
+      "meaning": "The UI catalog has neutral styling to keep the focus on the screens and components it is showing."
+    },
+    {
+      "value": "Honest",
+      "meaning": "Says which screens are covered and which are not. “Gap” marks a case nobody has pictured; “Waived” marks one you chose to skip, with your reason."
+    },
+    {
+      "value": "Yours",
+      "meaning": "Your user flows, test scenarios, styling, and domain language all live in your app’s repository."
+    }
+  ],
+  "rules": [
+    "The name is Fablebook: one word, capital F. In code it is `fablebook` and `:fablebook`.",
+    "Gilt appears only in the logo, the docs and the social card. The UI catalog stays neutral.",
+    "Never put a shape behind the logo, and never use the ribbon alone as a bookmark icon."
+  ],
+  "presence": {
+    "head": "Full brand where people decide. Neutral where they work.",
+    "tiers": [
+      [
+        "Fablebook’s own",
+        "README, Hex page, docs site and social card",
+        "Everyone who is deciding whether to use it.",
+        "The full logo, the gilt, Literata headlines, both themes."
+      ],
+      [
+        "Inside the UI catalog",
+        "The sidebar, toolbar, inspector and palette in a developer’s own app",
+        "Developers building their UI, and designers and product people giving feedback.",
+        "The logo in the corner, Ink or Vellum only, Schibsted Grotesk, no gilt. The one exception is the ribbon that marks the current scenario."
+      ],
+      [
+        "In other people’s writing",
+        "Blog posts, talks, newsletters and other READMEs",
+        "People writing about Fablebook.",
+        "The logo, unchanged, with the rules in this book. Nothing added."
+      ]
+    ],
+    "note": "The UI catalog stays neutral on purpose, so your app’s own colors are the only color on screen."
+  },
+  "logo": {
+    "mark": "The first letter of the name, a lowercase f. Its stem is cut once, a gap under the crossbar, and below the cut it becomes a bookmark ribbon in gilt: the same stem width, straight sides, a swallowtail end, hanging below the baseline. The f above the cut is the wordmark’s own f.",
+    "wordmark": "Fablebook, one word, in Schibsted Grotesk at weight 650, outlined from the font so no live text is needed. The ribbon is part of the word: it is the f. The other eight letters are the font’s, spaced by the font.",
+    "together": "The word and the ribbon are one drawing. Do not retype the name, separate the ribbon, or use the ribbon on its own as a bookmark icon.",
+    "mono": "One color is the same drawing in a single color: the gap under the crossbar and the notch carry the form, so nothing is redrawn. Ink on light, Vellum on dark.",
+    "small": "The logo has three cuts, drawn for their size. Display cut (49 px tall and up): Wide gap, long ribbon. Middle cut (25 to 48 px): Wider gap, longer ribbon and a deeper notch, at least 3 px. Small cut (24 px and below): The gap closes: the f and ribbon become one shape with a deep-notched foot. The app tile and the 16 and 32 px favicons use a heavier f (weight 800 at 32 px, 900 at 16 px) that fills the tile from top to bottom. The ribbon runs out through the bottom edge and its notch is cut through the tile, so the tile is not a plain light letter on a rounded square. Below 16 px, do not use the mark.",
+    "clear": "Keep clear space on every side equal to the height of the letter b (its ascender), measured from the outermost edge of the logo. Nothing enters it: no text, edge or other logo.",
+    "minNote": "On screen, the logo is never smaller than 14 px tall and the tile never smaller than 16 px. In print, never smaller than 12 mm wide.",
+    "theme": "The logo has a version for each theme. On light, the word is Ink and the ribbon is Gilt; on dark, the word is Vellum and the ribbon is Gilt Bright. Use the version made for the background; do not make one by inverting the other.",
+    "background": "No shape behind the logo: it sits directly on the page. The one derived exception is the app tile (favicon, app icon, avatar), where the f sits on a rounded Ink tile. A photograph or screenshot behind the logo needs a calm area at least as wide as the logo plus its clear space.",
+    "florin": "An f with a stem below the baseline can be read as ƒ, the function sign. Developers know it, and for a Phoenix library of function components it is an acceptable second reading. The name is also one letter from another well-known name, and a light f on a rounded square is a common app-icon pattern; the tile avoids it by running the ribbon through the bottom edge.",
+    "minimumSizes": [
+      {
+        "version": "Logo",
+        "screen": "14 px tall",
+        "print": "12 mm wide"
+      },
+      {
+        "version": "Tile, drawn for its size",
+        "screen": "16 px",
+        "print": "Not specified"
+      }
+    ],
+    "misuse": [
+      "Don’t retype the name or stretch, squeeze or rotate the logo.",
+      "Don’t recolor the ribbon, or make the word gilt.",
+      "Don’t put a plate, badge or any shape behind the logo, except the app tile.",
+      "Don’t add the tagline, the descriptor or any text to the logo.",
+      "Don’t separate the ribbon and use it alone as a bookmark.",
+      "Don’t use the dark drawing on a light page, or the light drawing on a dark one."
+    ],
+    "onPhotography": {
+      "head": "On screenshots and photographs",
+      "rules": [
+        "Place the logo on a calm area at least as wide as the logo and its clear space.",
+        "Use the light drawing on a light area and the dark drawing on a dark one. If neither reads well, move the logo.",
+        "Do not put a shape or a shadow behind it to make it read."
+      ]
+    },
+    "useByOthers": [
+      "Hex packages, blogs, newsletters and conference sites may use the logo unchanged to refer to Fablebook.",
+      "Do not use it to suggest that Fablebook endorses, certifies or reviews another product.",
+      "Do not alter the logo, or build a new logo from the ribbon."
+    ],
+    "clearSpace": "one quarter of the lockup height on every side, measured from the outermost ink"
+  },
+  "color": {
+    "defaultTheme": "light",
+    "dark": [
+      {
+        "name": "Night",
+        "hex": "#121316",
+        "role": "The dark background.",
+        "sharePercent": 62
+      },
+      {
+        "name": "Graphite",
+        "hex": "#1B1C21",
+        "role": "Panels, cards and the frame around the canvas on Night.",
+        "sharePercent": 24
+      },
+      {
+        "name": "Vellum",
+        "hex": "#E8E6E1",
+        "role": "Text on dark, and the logo on dark.",
+        "sharePercent": 9
+      },
+      {
+        "name": "Gilt Bright",
+        "hex": "#E2B04A",
+        "role": "Links, large accent words and focus in docs and the README on dark. Never in the UI catalog.",
+        "sharePercent": 2
+      },
+      {
+        "name": "Dim Line",
+        "hex": "#2C2D33",
+        "role": "Dividing lines on dark.",
+        "sharePercent": 3
+      }
+    ],
+    "light": [
+      {
+        "name": "Paper",
+        "hex": "#F6F4EF",
+        "role": "The light background. Light is the default theme.",
+        "sharePercent": 62
+      },
+      {
+        "name": "Card",
+        "hex": "#FFFFFF",
+        "role": "Panels, cards and the frame around the canvas.",
+        "sharePercent": 24
+      },
+      {
+        "name": "Ink",
+        "hex": "#17181C",
+        "role": "Text on light, the UI catalog’s only emphasis, and the logo on light.",
+        "sharePercent": 9
+      },
+      {
+        "name": "Gilt Deep",
+        "hex": "#7A5200",
+        "role": "Links, large accent words and focus in docs and the README. Never in the UI catalog.",
+        "sharePercent": 2
+      },
+      {
+        "name": "Hairline",
+        "hex": "#D9D6CE",
+        "role": "Dividing lines on light.",
+        "sharePercent": 3
+      }
+    ],
+    "logo": {
+      "name": "Gilt",
+      "light": "#B07A12",
+      "dark": "#E2B04A",
+      "role": "The ribbon in the logo: Gilt on light and Gilt Bright on dark. It is an artwork color, a shape to look at, never text, a link or a control. Gilt Deep and Gilt Bright carry text."
+    },
+    "secondary": [
+      {
+        "name": "Slate",
+        "hex": "#5C5F66",
+        "role": "Secondary text on Paper and Card."
+      },
+      {
+        "name": "Ash",
+        "hex": "#A5A29A",
+        "role": "Secondary text on Night and Graphite."
+      },
+      {
+        "name": "Control Edge",
+        "hex": "#8A8C92",
+        "role": "Input and button borders on light (3.1:1 on Paper). On dark use #7D7F86 (4.7:1 on Night)."
+      }
+    ],
+    "markers": [
+      {
+        "name": "Edited",
+        "textLight": "#17181C",
+        "chipLight": "#FFFFFF",
+        "textDark": "#E8E6E1",
+        "chipDark": "#1B1C21",
+        "meaning": "Temporary: a control changed a value. Your code is untouched; Restore scenario puts the original back."
+      },
+      {
+        "name": "Gap",
+        "textLight": "#9A3B1F",
+        "chipLight": "#F7DED4",
+        "textDark": "#F29A7A",
+        "chipDark": "#3B2019",
+        "meaning": "Not covered yet: there is no scenario for it, and nobody has waived it."
+      },
+      {
+        "name": "Waived",
+        "textLight": "#4C5058",
+        "chipLight": "#E3E1DB",
+        "textDark": "#B5B2AA",
+        "chipDark": "#26272C",
+        "meaning": "Set aside on purpose, with your reason. It stays visible and counted."
+      }
+    ],
+    "contrastPairs": [
+      {
+        "id": "body",
+        "role": "Body text",
+        "use": "README, docs, the UI catalog and this book.",
+        "minimum": 4.5,
+        "light": {
+          "text": "#17181C",
+          "ground": "#F6F4EF",
+          "contrast": 16.14,
+          "use": "Any text size (AAA)"
+        },
+        "dark": {
+          "text": "#E8E6E1",
+          "ground": "#121316",
+          "contrast": 14.89,
+          "use": "Any text size (AAA)"
+        }
+      },
+      {
+        "id": "descriptor",
+        "role": "Descriptor and secondary text",
+        "use": "The words “A UI catalog for Phoenix LiveView” beside the logo, and metadata under a title.",
+        "minimum": 4.5,
+        "light": {
+          "text": "#5C5F66",
+          "ground": "#F6F4EF",
+          "contrast": 5.82,
+          "use": "Any text size (AA)"
+        },
+        "dark": {
+          "text": "#A5A29A",
+          "ground": "#121316",
+          "contrast": 7.28,
+          "use": "Any text size (AAA)"
+        }
+      },
+      {
+        "id": "caption",
+        "role": "Caption and table metadata",
+        "use": "Captions, scenario addresses and column labels on a card.",
+        "minimum": 4.5,
+        "light": {
+          "text": "#5C5F66",
+          "ground": "#FFFFFF",
+          "contrast": 6.4,
+          "use": "Any text size (AA)"
+        },
+        "dark": {
+          "text": "#A5A29A",
+          "ground": "#1B1C21",
+          "contrast": 6.67,
+          "use": "Any text size (AA)"
+        }
+      },
+      {
+        "id": "application-copy",
+        "role": "Copy inside an application",
+        "use": "Text on a card in the UI catalog, the README or a slide.",
+        "minimum": 4.5,
+        "light": {
+          "text": "#17181C",
+          "ground": "#FFFFFF",
+          "contrast": 17.74,
+          "use": "Any text size (AAA)"
+        },
+        "dark": {
+          "text": "#E8E6E1",
+          "ground": "#1B1C21",
+          "contrast": 13.64,
+          "use": "Any text size (AAA)"
+        }
+      },
+      {
+        "id": "hero",
+        "role": "Display accent",
+        "use": "A large headline word in the gilt, in docs and the social card. 24 px and up.",
+        "minimum": 3,
+        "light": {
+          "text": "#7A5200",
+          "ground": "#F6F4EF",
+          "contrast": 6.3,
+          "use": "Any text size (AA)"
+        },
+        "dark": {
+          "text": "#E2B04A",
+          "ground": "#121316",
+          "contrast": 9.33,
+          "use": "Any text size (AAA)"
+        }
+      },
+      {
+        "id": "link",
+        "role": "Link",
+        "use": "Links in docs and the README, and the main button’s text in docs.",
+        "minimum": 4.5,
+        "light": {
+          "text": "#7A5200",
+          "ground": "#FFFFFF",
+          "contrast": 6.92,
+          "use": "Any text size (AA)"
+        },
+        "dark": {
+          "text": "#E2B04A",
+          "ground": "#1B1C21",
+          "contrast": 8.54,
+          "use": "Any text size (AAA)"
+        }
+      },
+      {
+        "id": "focus",
+        "role": "Focus ring",
+        "use": "The 2 px ring on a focused control, in Ink or Vellum. The UI catalog never uses a gilt ring.",
+        "minimum": 3,
+        "light": {
+          "text": "#17181C",
+          "ground": "#F6F4EF",
+          "contrast": 16.14,
+          "use": "Any text size (AAA)"
+        },
+        "dark": {
+          "text": "#E8E6E1",
+          "ground": "#121316",
+          "contrast": 14.89,
+          "use": "Any text size (AAA)"
+        }
+      },
+      {
+        "id": "artwork",
+        "role": "Logo ribbon",
+        "use": "Gilt against the page, read as a shape, not as text.",
+        "minimum": 3,
+        "light": {
+          "text": "#B07A12",
+          "ground": "#F6F4EF",
+          "contrast": 3.39,
+          "use": "Large text and graphics only"
+        },
+        "dark": {
+          "text": "#E2B04A",
+          "ground": "#121316",
+          "contrast": 9.33,
+          "use": "Any text size (AAA)"
+        }
+      }
+    ],
+    "never": [
+      {
+        "color": "Gilt",
+        "notFor": "text of any size on Paper or Card"
+      },
+      {
+        "color": "Gilt Deep or Gilt Bright",
+        "notFor": "anything inside the UI catalog (use Ink or Vellum)"
+      },
+      {
+        "color": "Hairline",
+        "notFor": "the only boundary of a control"
+      },
+      {
+        "color": "Gilt, Gilt Deep or Gilt Bright",
+        "notFor": "a status or a warning"
+      }
+    ],
+    "notes": "Ratios are WCAG 2.2 contrast, computed from the hex values. A pair that passes here says nothing about a whole product built with it. Gilt on Paper is 3.4:1: enough for a shape, not for text. Hairline and Dim Line only divide; they are never the only boundary of a control.",
+    "print": "Not specified: proof against a physical swatch; no CMYK or Pantone values are given."
+  },
+  "type": {
+    "display": {
+      "family": "Literata",
+      "weights": "SemiBold (600) for headlines and the cover line; Regular (400) for long reading in docs.",
+      "css": "Literata, Georgia, 'Times New Roman', serif",
+      "use": "Headlines in docs, guides, slides and the social card.",
+      "why": "A book face, drawn for reading on screens. It gives the docs the feel of a well-kept book without a decorative gesture, and it sits well beside the grotesque logo."
+    },
+    "text": {
+      "family": "Schibsted Grotesk",
+      "weights": "Regular (400), Medium (500) and SemiBold (600). SemiBold (650) draws the wordmark.",
+      "css": "'Schibsted Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "use": "The wordmark, body text, the UI catalog’s labels, tables and buttons.",
+      "why": "Flat-cut terminals and calm, open letters, so it reads well small and in dense tools. The wordmark is this face, so the logo and the interface are one family."
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "weights": "Regular (400) and Medium (500).",
+      "css": "'JetBrains Mono', ui-monospace, 'SF Mono', Consolas, monospace",
+      "use": "Anything copied or compared: commands, module names, attrs, scenario addresses and code.",
+      "why": "Tall x-height, a slashed zero and distinct 1, l and I, so an address or a command can be read and copied correctly."
+    },
+    "license": "All three families are SIL Open Font License 1.1, from Google Fonts. The license texts are in the assets fonts folder.",
+    "hierarchy": [
+      {
+        "role": "Display",
+        "face": "Literata",
+        "weight": 600,
+        "sizePx": 56,
+        "lineHeight": 1.08,
+        "tracking": "-0.01em",
+        "sample": "The whole journey, not just the happy path.",
+        "use": "Covers, slides and the social card. One line, two at most."
+      },
+      {
+        "role": "Heading",
+        "face": "Literata",
+        "weight": 600,
+        "sizePx": 28,
+        "lineHeight": 1.2,
+        "tracking": "-0.005em",
+        "sample": "Show the empty screen first",
+        "use": "Page titles and section heads in docs and guides."
+      },
+      {
+        "role": "Body",
+        "face": "Schibsted Grotesk",
+        "weight": 400,
+        "sizePx": 16,
+        "lineHeight": 1.55,
+        "tracking": "0",
+        "sample": "A scenario is one screen in one case, such as a new account with nothing sent yet.",
+        "use": "README, docs and guides. 62 to 72 characters a line."
+      },
+      {
+        "role": "UI catalog text",
+        "face": "Schibsted Grotesk",
+        "weight": 500,
+        "sizePx": 13,
+        "lineHeight": 1.4,
+        "tracking": "0",
+        "sample": "Empty: new account, nothing sent yet",
+        "use": "The UI catalog’s sidebar, toolbar, inspector and tables."
+      },
+      {
+        "role": "Label",
+        "face": "Schibsted Grotesk",
+        "weight": 600,
+        "sizePx": 12,
+        "lineHeight": 1.2,
+        "tracking": "0.12em, capitals",
+        "sample": "Scenarios",
+        "use": "Sidebar groups and column heads. Capitals only at this size and weight."
+      },
+      {
+        "role": "Code and addresses",
+        "face": "JetBrains Mono",
+        "weight": 400,
+        "sizePx": 13,
+        "lineHeight": 1.5,
+        "tracking": "0",
+        "sample": "accounts/login_form/empty",
+        "use": "Commands, modules, attrs and scenario addresses. Never wrap an address; shorten it in the middle."
+      }
+    ],
+    "rules": [
+      "The wordmark is outlined from Schibsted Grotesk 650 and is never retyped. Everywhere else the name is ordinary text.",
+      "Docs headlines are Literata; everything the UI catalog draws is Schibsted Grotesk. They never swap.",
+      "Every scenario address, module name, attr and command is set in JetBrains Mono, so it can be compared by eye and copied.",
+      "Headlines are sentence case. Capitals appear only in 12 px labels.",
+      "No type is lighter than 400 or smaller than 12 px."
+    ]
+  },
+  "voice": {
+    "summary": "Plain: Fablebook says what the user is trying to do, what is on screen and what to do next, and never raises its voice.",
+    "tone": [
+      {
+        "channel": "The UI catalog: empty and error messages",
+        "plainToLively0to4": 0,
+        "example": "No scenarios yet. Add one to this story, or mark this kind of case as waived."
+      },
+      {
+        "channel": "Docs and README",
+        "plainToLively0to4": 1,
+        "example": "Mount Fablebook as a dev route in Phoenix, then open it to see every screen in your app."
+      },
+      {
+        "channel": "Release notes",
+        "plainToLively0to4": 1,
+        "example": "A story’s coverage now shows which kinds of case have a waiver and why."
+      },
+      {
+        "channel": "Talks and social posts",
+        "plainToLively0to4": 2,
+        "example": "The empty screen is where most apps first let a new user down. Here is how to see it before they do."
+      }
+    ],
+    "toneNote": "The voice never changes; the tone shifts with where the words appear. Fablebook is plain everywhere and a little livelier in a talk or a post. In the UI catalog it is never lively: a developer there is trying to find out why something looks wrong.",
+    "thisNotThat": [
+      {
+        "say": "Add a scenario for the empty screen.",
+        "notThis": "Create a new variant."
+      },
+      {
+        "say": "This screen has no scenario for when saving fails.",
+        "notThis": "Coverage gap detected in your design system."
+      },
+      {
+        "say": "Restore scenario",
+        "notThis": "Reset your changes."
+      },
+      {
+        "say": "Fablebook shows your screens the way your users see them.",
+        "notThis": "Fablebook makes your UI bulletproof."
+      },
+      {
+        "say": "Mount it as a dev route in Phoenix.",
+        "notThis": "Seamlessly integrate Fablebook into your workflow."
+      },
+      {
+        "say": "Empty: new account, nothing sent yet.",
+        "notThis": "Edge case 4."
+      },
+      {
+        "say": "Waived: this case does not apply to a read-only table.",
+        "notThis": "Skipped."
+      },
+      {
+        "say": "No scenarios match this filter. Clear the filter to see all 38.",
+        "notThis": "Oops! Nothing here."
+      }
+    ],
+    "inclusive": [
+      "Start from the user. Say what they are trying to do and what they see before any term from the code.",
+      "Say what to do next. Every empty and error screen ends with a step.",
+      "Name scenarios by what the user is going through. A designer or product manager who didn’t build the screen should know what is on it without opening the code."
+    ],
+    "name": {
+      "rule": "Fablebook, one word with a capital F, in running text. In code, packages and commands it is `fablebook`, `:fablebook` and `mix fablebook.install`.",
+      "never": [
+        {
+          "form": "FableBook, Fable Book",
+          "why": "one word, one capital"
+        },
+        {
+          "form": "FABLEBOOK",
+          "why": "except as a 12 px label in capitals"
+        },
+        {
+          "form": "fablebook",
+          "why": "in running text (code only)"
+        },
+        {
+          "form": "the Fablebook platform",
+          "why": "Fablebook is a library and a UI catalog"
+        }
+      ],
+      "descriptor": "Call it “a UI catalog for Phoenix LiveView” and what it shows “scenarios”. Describe what it is for in the user’s terms: screens, user flows, the happy path, errors and edge cases, not “states” or “components” alone."
+    },
+    "terms": [
+      {
+        "term": "UI catalog",
+        "meaning": "What Fablebook is, and what you open in the browser: a sidebar, toolbar, inspector and palette around the canvas.",
+        "say": "workbench, manager, dashboard, explorer"
+      },
+      {
+        "term": "Domain language",
+        "meaning": "The words your team and users use for things in your app, such as invoice or plan, as structured text.",
+        "say": "canon"
+      },
+      {
+        "term": "Job to be done",
+        "meaning": "What a user is trying to get done, such as paying an invoice. Also called a JTBD.",
+        "say": "task, use case"
+      },
+      {
+        "term": "Canvas",
+        "meaning": "The framed area where a scenario is shown: your real UI.",
+        "say": "sandbox, preview, iframe"
+      },
+      {
+        "term": "Story",
+        "meaning": "The catalog entry for one screen or component, its subject. It owns that subject’s scenarios.",
+        "say": "fable, spec"
+      },
+      {
+        "term": "Scenario",
+        "meaning": "One screen shown in one case, such as the invoice card for a new account. It has a clear name and a link you can share.",
+        "say": "variant, variation, example, state"
+      },
+      {
+        "term": "Case",
+        "meaning": "What a user is going through when they see a screen, such as “Empty: new account, nothing sent yet”. Kinds: happy path, empty, many, error, long.",
+        "say": "situation, description, state class"
+      },
+      {
+        "term": "Group",
+        "meaning": "Scenarios shown together in one grid for comparison. Each keeps its own address.",
+        "say": "variation group"
+      },
+      {
+        "term": "Attrs and slots",
+        "meaning": "The inputs of a function component, in Phoenix’s own words.",
+        "say": "args, props, knobs"
+      },
+      {
+        "term": "Edited",
+        "meaning": "A scenario shown with a value you changed in a control. Temporary: your code is untouched.",
+        "say": "dirty, modified"
+      },
+      {
+        "term": "Waiver",
+        "meaning": "A note that a case is set aside on purpose, with your reason. It stays visible.",
+        "say": "exception, skip, ignore"
+      },
+      {
+        "term": "Gap",
+        "meaning": "A case with no scenario and no waiver: nobody has pictured it yet.",
+        "say": "missing, uncovered"
+      },
+      {
+        "term": "Book",
+        "meaning": "One catalog with its own settings, mounted at one path. An app may have several.",
+        "say": "backend, config"
+      },
+      {
+        "term": "Host app",
+        "meaning": "The Phoenix app you are building, which Fablebook runs in during development.",
+        "say": "twin, demo app, example app"
+      }
+    ],
+    "termsNote": "These are only the words the brand depends on; the product’s own glossary defines the rest."
+  },
+  "messaging": {
+    "pitch": "Fablebook is a UI catalog for Phoenix LiveView. Mock up all of your user flows and preview them with realistic data so you can quickly iterate to perfection.",
+    "pillars": [
+      [
+        "The whole journey.",
+        "Shows each screen in cases such as a first visit, nothing there yet and form validation errors. Each scenario is clearly named and has a link you can share."
+      ],
+      [
+        "As users see it.",
+        "Previews your real UI, so what you see is what ships."
+      ],
+      [
+        "In your repository.",
+        "Your user flows, test scenarios, styling, and domain language are files in your app, so they change with your code."
+      ]
+    ],
+    "tagline": "Sentence case, with the period. It sits beside the logo, never in it.",
+    "boilerplate": [
+      [
+        "One line: Hex, GitHub and package listings",
+        "A UI catalog for Phoenix LiveView: mock up all of your user flows and preview them with realistic data."
+      ],
+      [
+        "Short: README opening, talk bios",
+        "Fablebook is an open-source UI catalog for Phoenix LiveView. Mock up all of your user flows and preview them with realistic data, from the happy path to the edge cases, and see which cases nobody has covered yet."
+      ],
+      [
+        "Do not say",
+        "Storybook for Phoenix, “knobs”, “variants”, “every state”, “blazing fast”, “seamless”, “powerful”. Fablebook shows cases; whether a screen is good is for your team to decide."
+      ]
+    ]
+  },
+  "imagery": {
+    "guidance": "Fablebook’s pictures show the UI catalog at work with real labels: a story with its scenarios, a coverage map, and a command. They need no stock photography and no illustration.",
+    "show": [
+      {
+        "subject": "A story and its scenarios",
+        "detail": "The screen shown in a frame, with each scenario named by its case and its address under it."
+      },
+      {
+        "subject": "One scenario at a time",
+        "detail": "The current scenario marked with the ribbon, and a case that isn’t covered marked with the Gap word."
+      },
+      {
+        "subject": "A coverage map",
+        "detail": "Each story against each kind of case: a scenario, a waiver or a gap in every cell."
+      },
+      {
+        "subject": "A command",
+        "detail": "A real command with its flags, in JetBrains Mono on the code ground."
+      }
+    ],
+    "never": [
+      "Storybook’s book and S",
+      "Open books and quills",
+      "Fairy-tale castles and dragons",
+      "Stacks of cards or paper",
+      "Magnifying glasses",
+      "A checkmark as proof a screen is done",
+      "Rainbow component grids",
+      "Stock people at screens",
+      "Neon grids and code rain"
+    ],
+    "why": "Fablebook shows how a screen behaves from the happy path to the edge cases. These pictures say it tells stories, reviews design or guarantees quality, and Fablebook does none of those.",
+    "note": "The pictures in this book are illustrations drawn from the UI catalog’s real labels and structure. They show the layout this book recommends, not screenshots of the current product, and the data in them is invented."
+  },
+  "code": {
+    "ground": {
+      "light": "#EFEDE6",
+      "dark": "#0C0D0F"
+    },
+    "roles": [
+      {
+        "role": "Text",
+        "light": "#17181C",
+        "dark": "#E8E6E1",
+        "colors": "Names and punctuation. Module names in weight 500."
+      },
+      {
+        "role": "Comment",
+        "light": "#5C5F66",
+        "dark": "#8F8C85",
+        "colors": "Comments, in a quiet slate."
+      },
+      {
+        "role": "Keyword",
+        "light": "#7A2E6E",
+        "dark": "#D79BCB",
+        "colors": "def, do, end, attr, slot. Plum."
+      },
+      {
+        "role": "String",
+        "light": "#2F6B3E",
+        "dark": "#8CC28A",
+        "colors": "Strings and HEEx attribute values. A quiet green."
+      },
+      {
+        "role": "Atom, key and number",
+        "light": "#2C5F8A",
+        "dark": "#8DB8E3",
+        "colors": "Atoms, keys and numbers, in a slate blue."
+      },
+      {
+        "role": "Command and flag",
+        "light": "#0E6B63",
+        "dark": "#5FD0C4",
+        "colors": "The prompt, commands and flags, in teal."
+      }
+    ],
+    "rules": [
+      "No gilt in code, so nothing in code looks like the ribbon. The Gap brick appears only as the word “gap” in coverage output, where it means a gap.",
+      "Module names and function heads stand out by weight, not by another color.",
+      "Syntax colors are for code blocks only. Inline code in a sentence is plain JetBrains Mono on a chip, in every medium.",
+      "Use these colors where Fablebook styles code: slides, social cards, blog posts and screenshots. GitHub and ExDoc color their own code; leave that alone.",
+      "Show code that matches the current release, not pseudo-code."
+    ]
+  },
+  "graphicElements": {
+    "head": "One shape that keeps your place: the ribbon.",
+    "intro": "The ribbon is the brand’s only graphic device. It is the same shape as the stem of the logo: straight sides and a swallowtail end. It marks one thing per view, the place you are keeping, and it is the only gilt allowed inside the UI catalog.",
+    "items": [
+      [
+        "The current-scenario ribbon",
+        "A 4 px wide ribbon on the sidebar’s selected scenario and on the canvas frame’s top edge. In the UI catalog it is Ink, not gilt; on the docs site and in slides it may be gilt."
+      ],
+      [
+        "The page ribbon",
+        "On the docs site, a gilt ribbon hangs from the top of a page you have bookmarked or are reading from a link. One per page, never decorative."
+      ]
+    ],
+    "never": "The ribbon never repeats as a pattern, never frames a block, never marks more than one item, and never stands in for the logo."
+  },
+  "legal": [
+    "Fablebook is open source. The logo and this brand book are covered by the repository’s license unless it says otherwise.",
+    "No trademark registration is claimed in this book, and none was searched. Use ™, not ®, only if the maintainers decide to claim the name.",
+    "Fonts are SIL Open Font License 1.1; the license texts are in the assets fonts folder."
+  ],
+  "contact": [
+    "Questions about the brand and requests to use it: the Fablebook maintainers, through the project’s issue tracker.",
+    "Approval: the maintainers approve any use that changes the logo or colors; unchanged use under these rules needs no approval."
+  ],
+  "notNeeded": [
+    {
+      "item": "Mascot",
+      "why": "Considered, not proposed. A tool for working on a UI is trusted for being calm and exact, and a character pulls the other way."
+    },
+    {
+      "item": "Patterns and textures",
+      "why": "The ribbon is the only graphic device. A pattern would compete with your UI in the canvas, which is the picture."
+    },
+    {
+      "item": "Stock photography and illustration",
+      "why": "There is no honest photograph of “a screen when the save fails”. The real UI catalog says it better."
+    },
+    {
+      "item": "A second typeface for the logo",
+      "why": "The wordmark and the interface are both Schibsted Grotesk; the book face, Literata, is for docs headlines only."
+    },
+    {
+      "item": "Brand color in the UI catalog",
+      "why": "The UI catalog stays neutral so the app’s own colors are the only color on screen."
+    },
+    {
+      "item": "Logo animation and sound",
+      "why": "Not defined in this edition. The UI catalog has no sound, and moving between scenarios is instant; see To review."
+    }
+  ],
+  "toReview": [
+    {
+      "choice": "“UI catalog” is the one name.",
+      "detail": "The descriptor is “A UI catalog for Phoenix LiveView”, and the part you open is the same thing. “Workbench” is gone from the book."
+    },
+    {
+      "choice": "One word for each thing: scenario, case, story.",
+      "detail": "A scenario is one screen in one case; a case is what a user is going through (a first visit, nothing there yet, an error). “Case” replaces “situation”, which read as a synonym of “scenario”; “condition” is the alternative. “Story” is still the word for one screen; if user flows are your unit, it changes with the glossary and coverage map."
+    },
+    {
+      "choice": "Edited is set apart from Gap and Waived.",
+      "detail": "Edited is temporary, so it is a round outlined pill, listed apart from the two coverage marks. Gap is brick, not amber, which would read as gilt; Waived has a dashed outline. Meanings stay short until Fablebook is further along."
+    },
+    {
+      "choice": "The terminal prints the words gap and waived in color.",
+      "detail": "Gap is brick and waived is slate; both are written out, so the table reads without color. It is the one place brick appears in code."
+    },
+    {
+      "choice": "The book says screens, paths and cases, not “states”.",
+      "detail": "Scenario, story, gap, waived and edited are the product’s own words."
+    },
+    {
+      "choice": "Some audience promises are the owner’s wording.",
+      "detail": "Previewing user flows with realistic data, a scenario coverage map, personas, jobs to be done, component styles as structured text, and “test scenarios” and “styling” in your repository are not confirmed as shipped."
+    },
+    {
+      "choice": "“Domain language” replaces “canon”; no “draft”.",
+      "detail": "“Canon” came from the product’s notes; confirm the name there. There is no draft label: the UI catalog has only Edited, Gap and Waived."
+    },
+    {
+      "choice": "The ribbon is part of the f.",
+      "detail": "It is the f’s stem below one cut. A logo with a whole f and a ribbon beside it would state the initial twice."
+    },
+    {
+      "choice": "The name sits close to a very well-known one.",
+      "detail": "Fablebook is one letter from a famous social network, whose icon is a lowercase f on a rounded tile. The tile’s ribbon runs out through the bottom edge to break that. Name clearance was not searched."
+    },
+    {
+      "choice": "Gilt is a docs-and-logo color only.",
+      "detail": "The UI catalog has no accent. If it ever feels sterile, the ribbon on the current scenario is the first place to add gilt."
+    },
+    {
+      "choice": "Light is the default theme.",
+      "detail": "Docs, README and Hex render light by default, with a dark theme for dark devices. The UI catalog follows the device."
+    }
+  ],
+  "notChecked": "Name and trademark clearance were not searched; the name was kept. Code samples follow the README and were not run. Logo legibility was checked on test sheets and by model readers, not with people. Contrast is computed for the pairs listed here, not for a whole product. Print color was not proofed. The favicon and tile were not checked on a real device or in Safari, and the 16 px tile still sits close to a plain letter on a rounded square.",
+  "retired": [
+    "The plain bookmark ribbon on its own as the logo, which reads as a stock bookmark icon.",
+    "Any S, book or cover shape.",
+    "A tagline inside the logo.",
+    "The words “variant”, “knobs” and “Storybook for Phoenix”."
+  ],
+  "fonts": {
+    "source": {
+      "repo": "https://github.com/google/fonts",
+      "commit": "b68b528a75da7d9b73f3928899c07a23083a6633"
+    },
+    "files": [
+      {
+        "path": "ofl/schibstedgrotesk/SchibstedGrotesk[wght].ttf",
+        "sha256": "6ceeadf6be8e1fd7687011c7fa38ed0edd1abe967a0b73d97caec183552e823d",
+        "file": "SchibstedGrotesk[wght].ttf"
+      },
+      {
+        "path": "ofl/schibstedgrotesk/OFL.txt",
+        "sha256": "3b4f3063b6ac7c1e403e2c4a5e8ef3a58190ff83ed7b15af66511858699139ce",
+        "file": "OFL-SchibstedGrotesk.txt"
+      },
+      {
+        "path": "ofl/literata/Literata[opsz,wght].ttf",
+        "sha256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+        "file": "Literata[opsz,wght].ttf"
+      },
+      {
+        "path": "ofl/literata/OFL.txt",
+        "sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+        "file": "OFL-Literata.txt"
+      },
+      {
+        "path": "ofl/jetbrainsmono/JetBrainsMono[wght].ttf",
+        "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
+        "file": "JetBrainsMono[wght].ttf"
+      },
+      {
+        "path": "ofl/jetbrainsmono/OFL.txt",
+        "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+        "file": "OFL-JetBrainsMono.txt"
+      }
+    ]
+  },
+  "files": [
+    {
+      "need": "Logo on a light background",
+      "files": [
+        "assets/logo/fablebook-lockup-light.svg",
+        "assets/logo/fablebook-lockup-mid-light.svg",
+        "assets/logo/fablebook-lockup-small-light.svg",
+        "assets/logo/fablebook-mark-light.svg",
+        "assets/logo/fablebook-lockup-light-2048.png"
+      ]
+    },
+    {
+      "need": "Logo on a dark background",
+      "files": [
+        "assets/logo/fablebook-lockup-dark.svg",
+        "assets/logo/fablebook-lockup-mid-dark.svg",
+        "assets/logo/fablebook-lockup-small-dark.svg",
+        "assets/logo/fablebook-mark-dark.svg",
+        "assets/logo/fablebook-lockup-dark-2048.png"
+      ]
+    },
+    {
+      "need": "One color: print and single-color jobs",
+      "files": [
+        "assets/logo/fablebook-lockup-mono-ink.svg",
+        "assets/logo/fablebook-lockup-mono-vellum.svg",
+        "assets/logo/fablebook-mark-mono-ink.svg",
+        "assets/logo/fablebook-mark-mono-vellum.svg"
+      ]
+    },
+    {
+      "need": "Favicon and app tile",
+      "files": [
+        "assets/icon/favicon.svg",
+        "assets/icon/favicon-light.svg",
+        "assets/icon/favicon-dark.svg",
+        "assets/icon/favicon.ico",
+        "assets/icon/favicon-32-light.png",
+        "assets/icon/favicon-16-light.png"
+      ]
+    },
+    {
+      "need": "Link preview and social card",
+      "files": [
+        "assets/social/fablebook-social-card-1280x640.png"
+      ]
+    },
+    {
+      "need": "Fonts",
+      "files": [
+        "assets/fonts/web/fonts.css",
+        "assets/fonts/variable/SchibstedGrotesk[wght].ttf",
+        "assets/fonts/variable/Literata[opsz,wght].ttf",
+        "assets/fonts/variable/JetBrainsMono[wght].ttf",
+        "assets/fonts/OFL-SchibstedGrotesk.txt"
+      ]
+    }
+  ]
+}

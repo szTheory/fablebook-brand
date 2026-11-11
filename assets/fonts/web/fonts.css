@@ -1,0 +1,4 @@
+@font-face{font-family:'Literata';font-style:normal;font-weight:400 700;font-display:swap;src:url('Literata-normal-400-700.woff2') format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url('SchibstedGrotesk-normal-400-700.woff2') format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400 500;font-display:swap;src:url('JetBrainsMono-normal-400.woff2') format('woff2')}
+/* Latin subsets; for other scripts use the files in ../variable. */
