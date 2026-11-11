@@ -1,6 +1,6 @@
 # Fablebook assets: which file to use
 
-Open `index.html` in a browser for previews. Version 2.0, November 10, 2026.
+Open `index.html` in a browser for previews. Version 2.0, November 11, 2026.
 
 ## Logo on a light background
 

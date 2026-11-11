@@ -1,6 +1,6 @@
 # Fablebook brand
 
-Version 2.0, November 10, 2026. This is the complete text of the brand book (`fablebook-brand-book.html`), page by page, for people and AI assistants. The same rules as structured data are in `brand.json`; colors and type values in `tokens.json`; every file is explained in `assets/README.md`.
+Version 2.0, November 11, 2026. This is the complete text of the brand book (`fablebook-brand-book.html`), page by page, for people and AI assistants. The same rules as structured data are in `brand.json`; colors and type values in `tokens.json`; every file is explained in `assets/README.md`.
 
 **Read this first.** A UI catalog for Phoenix LiveView. Mock up all of your user flows and preview them with realistic data so you can quickly iterate to perfection. For developers, designers, product people and LLMs. Light is the default theme and dark is a full theme. The logo is the word with its f ribbon, with no shape behind it and no tagline; the gilt appears only in the logo, the docs and the social card, never in the UI catalog. Every marker (Edited, Gap, Waived) is a word first and a color second. The contrast pairs have stable ids (body, descriptor, caption, application-copy, hero, link, focus, artwork) in both themes.
 
