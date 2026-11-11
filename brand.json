@@ -1,9 +1,14 @@
 {
-  "about": "Fablebook brand data, version 2.0. Every rule in the brand book as structured data; American English. This edition defines no logo animation and no sound.",
+  "about": "Fablebook brand data, version 2.1. Every rule in the brand book as structured data; American English. This edition defines no logo animation and no sound.",
   "name": "Fablebook",
-  "version": "2.0",
+  "version": "2.1",
   "date": "November 11, 2026",
   "revisions": [
+    {
+      "version": "2.1",
+      "date": "November 11, 2026",
+      "changes": "Eleventh pass, after the owner’s look at the markers page: the Coverage and Preview group headings are gone from both columns. Gap, Waived and Edited are one flat list, each with a plain name over its short meaning, so the page has no nested headings. Edited keeps its round outlined shape."
+    },
     {
       "version": "2.0",
       "date": "November 11, 2026",
@@ -898,7 +903,7 @@
     },
     {
       "choice": "Edited is set apart from Gap and Waived.",
-      "detail": "Edited is temporary, so it is a round outlined pill, listed apart from the two coverage marks. Gap is brick, not amber, which would read as gilt; Waived has a dashed outline. Meanings stay short until Fablebook is further along."
+      "detail": "Edited is temporary, so it is a round outlined pill, unlike the flat Gap and Waived chips. Gap is brick, not amber, which would read as gilt; Waived has a dashed outline. Meanings stay short until Fablebook is further along."
     },
     {
       "choice": "The terminal prints the words gap and waived in color.",

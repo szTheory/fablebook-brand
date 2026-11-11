@@ -1,6 +1,6 @@
 # Fablebook brand
 
-Version 2.0, November 11, 2026. This is the complete text of the brand book (`fablebook-brand-book.html`), page by page, for people and AI assistants. The same rules as structured data are in `brand.json`; colors and type values in `tokens.json`; every file is explained in `assets/README.md`.
+Version 2.1, November 11, 2026. This is the complete text of the brand book (`fablebook-brand-book.html`), page by page, for people and AI assistants. The same rules as structured data are in `brand.json`; colors and type values in `tokens.json`; every file is explained in `assets/README.md`.
 
 **Read this first.** A UI catalog for Phoenix LiveView. Mock up all of your user flows and preview them with realistic data so you can quickly iterate to perfection. For developers, designers, product people and LLMs. Light is the default theme and dark is a full theme. The logo is the word with its f ribbon, with no shape behind it and no tagline; the gilt appears only in the logo, the docs and the social card, never in the UI catalog. Every marker (Edited, Gap, Waived) is a word first and a color second. The contrast pairs have stable ids (body, descriptor, caption, application-copy, hero, link, focus, artwork) in both themes.
 
@@ -346,10 +346,6 @@ Edited, Gap and Waived are the only status words in the UI catalog. The Gap bric
 
 ### What each means
 
-Coverage
-
-Describes a screen. Stays until someone covers the case.
-
 **Gap**
 
 Not covered yet: there is no scenario for it, and nobody has waived it.
@@ -357,10 +353,6 @@ Not covered yet: there is no scenario for it, and nobody has waived it.
 **Waived**
 
 Set aside on purpose, with your reason. It stays visible and counted.
-
-Preview
-
-Describes one preview. Gone when you restore the scenario.
 
 **Edited**
 
@@ -686,7 +678,7 @@ The 32 px tile or the f alone on a calm ground, never the full logo cropped.
 | Link preview and social card | `social/fablebook-social-card-1280x640.png` |
 | Fonts | `fonts/web/fonts.css` `fonts/variable/SchibstedGrotesk[wght].ttf` `fonts/variable/Literata[opsz,wght].ttf` `fonts/variable/JetBrainsMono[wght].ttf` `fonts/OFL-SchibstedGrotesk.txt` |
 
-### Retired with version 2.0
+### Retired with version 2.1
 
 - The plain bookmark ribbon on its own as the logo, which reads as a stock bookmark icon.
 - Any S, book or cover shape.
@@ -746,7 +738,7 @@ Not defined in this edition. The UI catalog has no sound, and moving between sce
 
 1. **“UI catalog” is the one name.** The descriptor is “A UI catalog for Phoenix LiveView”, and the part you open is the same thing. “Workbench” is gone from the book.
 2. **One word for each thing: scenario, case, story.** A scenario is one screen in one case; a case is what a user is going through (a first visit, nothing there yet, an error). “Case” replaces “situation”, which read as a synonym of “scenario”; “condition” is the alternative. “Story” is still the word for one screen; if user flows are your unit, it changes with the glossary and coverage map.
-3. **Edited is set apart from Gap and Waived.** Edited is temporary, so it is a round outlined pill, listed apart from the two coverage marks. Gap is brick, not amber, which would read as gilt; Waived has a dashed outline. Meanings stay short until Fablebook is further along.
+3. **Edited is set apart from Gap and Waived.** Edited is temporary, so it is a round outlined pill, unlike the flat Gap and Waived chips. Gap is brick, not amber, which would read as gilt; Waived has a dashed outline. Meanings stay short until Fablebook is further along.
 4. **The terminal prints the words gap and waived in color.** Gap is brick and waived is slate; both are written out, so the table reads without color. It is the one place brick appears in code.
 5. **The book says screens, paths and cases, not “states”.** Scenario, story, gap, waived and edited are the product’s own words.
 6. **Some audience promises are the owner’s wording.** Previewing user flows with realistic data, a scenario coverage map, personas, jobs to be done, component styles as structured text, and “test scenarios” and “styling” in your repository are not confirmed as shipped.
